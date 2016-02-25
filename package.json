@@ -1,0 +1,23 @@
+{
+  "name": "glicko-ranking",
+  "version": "0.1.0",
+  "description": "Ranking web app based on glicko algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mmai/glicko-ranking.git"
+  },
+  "keywords": [
+    "glicko",
+    "ranking"
+  ],
+  "author": "Henri Bourcereau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmai/glicko-ranking/issues"
+  },
+  "homepage": "https://github.com/mmai/glicko-ranking#readme"
+}
