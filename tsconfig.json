@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "rootDir": "src/ts",
+    "outDir": "src/js",
+    "target": "es5" 
+  },
+  "exclude": [
+    "node_modules",
+  "typings/browser.d.ts",
+  "typings/browser"]
+}
