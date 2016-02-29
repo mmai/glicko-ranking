@@ -26,5 +26,8 @@ npm install ts-loader --save-dev
 ```
 typings search react --ambient
 typings install react --ambient --save
+typings install github:DefinitelyTyped/DefinitelyTyped/react/react-dom.d.ts --ambient --save
+
+npm install --save react react-dom
 ```
 

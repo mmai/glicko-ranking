@@ -2,10 +2,8 @@
   "compilerOptions": {
     "rootDir": "src/ts",
     "outDir": "src/js",
-    "target": "es5" 
+    "target": "es5", 
+    "jsx": "react"
   },
-  "exclude": [
-    "node_modules",
-  "typings/browser.d.ts",
-  "typings/browser"]
+  "exclude": [ "node_modules", "typings/browser.d.ts", "typings/browser"]
 }

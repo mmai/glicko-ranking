@@ -1,14 +1,16 @@
 module.exports = {  
-  entry: './src/ts/app.ts',
+  entry: './src/ts/app.tsx',
   output: {
-    filename: 'www/js/app.js'
+    path: 'www/js/',
+    filename: 'app.js',
+    publicPath: '/js/',
   },
   resolve: {
-    extensions: ['', '.ts', '.js']
+    extensions: ['', '.tsx', '.ts', '.js']
   },
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'ts-loader' }
+      { test: /\.tsx?$/, loader: 'ts-loader' }
     ]
   }
 }
